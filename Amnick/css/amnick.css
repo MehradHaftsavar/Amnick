@@ -1,0 +1,170 @@
+html, body {
+
+  
+  margin: 0;
+  padding: 0;
+  }
+
+  head, body{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+  /*background-image: url("../img/k.jpg");*/
+}
+
+body .header img{
+  margin-top: 9px;
+  margin-left: 484px;
+  
+}
+
+.header{
+  
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 0px;
+  
+}
+.container {
+
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header ul {
+  font-size:40px;
+  padding-top: 4px;
+  text-align: center;
+  padding-right: 51px;
+  
+    
+}
+     
+  .jumbotron .logo2 img{
+
+    object-fit: cover;
+    margin-top: 154px;
+    margin-left: 212px;
+  }
+
+  .jumbotron col-md-4 img{
+
+  }
+
+ .header li {
+  
+  display:inline;
+  
+  padding: 93px;
+  
+
+
+}
+
+.header a {
+  color:#000000;
+  text-decoration: none;
+  /*margin: 5px 20px;*/
+  font: normal normal normal 40px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+
+}
+
+.header h1{
+      padding-right: 10px;
+      
+     }
+
+   
+  .jumbotron{
+    background-image: url("../img/H.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    height: 3000px;
+    
+  }
+
+  .row h1{
+    font-size: 28px;
+    
+
+  }
+
+.active{
+     border-bottom: 1px solid grey;
+     
+     padding-bottom:1px;
+}
+.header li a:hover {
+text-decoration: none;
+color: #ccff99;
+}
+
+
+
+.jumbotron h1, h2 {
+  
+  color: white;
+  
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+.jumbotron h1{
+  margin-left: 240px;
+  margin-top: 180px;
+}
+ 
+.jumbotron h2{
+  margin-left: 380px;
+  
+}
+
+.supporting{
+  background-color: white;
+  padding-bottom: : 20px;
+}
+.btn{
+      border: outset 2px #ffcc00;
+      border-radius: 20px;
+      padding: 5px 80px;
+    }
+
+    
+
+    .col-md-4{
+      text-align: center;
+    }
+
+.supporting a{
+      color: black;
+    }
+
+
+    .footer{
+      background-color: black;
+      margin-top: 30px;
+      padding-top: 10px;
+      color:white;
+      
+    }
+
+    .footer a{
+      color: white;
+    }
+
+    .footer a:hover{
+     text-decoration: underline;
+     color: blue;
+    }
+
+
+    @media (max-width: 970px){
+      .header li{
+        display: block;
+      }
+    }
